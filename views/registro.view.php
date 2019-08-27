@@ -1,7 +1,7 @@
 <?php require 'header.php'; ?>
 
 <main>
-	<div class="container-fluid main" style="background:#53687e; height: 525px; ">
+	<div class="container-fluid main" style="background:#53687e;  ">
 		<div class="row justify-content-center" style="padding-top:10px;">
 			<h2 style="color:white; text-align: center;">Bienvenido a la aplicación MonResto</h2>
 			<div class="col-8 d-flex" style="padding-top: 40px;">
@@ -17,12 +17,18 @@
 				    <label  style="color:white;">Contraseña</label>
 				    <input type="password" class="form-control password" name="password"  placeholder="Contraseña" >
 				  </div>
-				  <div class="form-check" style="padding-left: 25px;">
-				    <input type="checkbox" class="form-check-input" id="exampleCheck1" >
-				    <label class="form-check-label" for="exampleCheck1" style="color:white; padding-top: 0;">Recuérdame</label>
+				   <div class="form-group">
+				  	<i class="icon-lock" style="color:white;"></i>
+				    <label  style="color:white;">Ingrese de nuevo su Contraseña</label>
+				    <input type="password" class="form-control password" name="password2"  placeholder="Contraseña" >
+				  </div>
+				  <div class="form-group" class="formulario" name="login">
+				  	<i class="icon-user-male" style="color:white;"></i>
+				    <label style="color:white;">Código de registro</label>
+				    <input type="text" class="form-control user_type" name="user_type" placeholder="Código">
 				  </div>
 				<div class="form-group">
-				  	<i class="btn btn-primary" onclick="login.submit()">Iniciar Sesión</i>
+				  	<i class="btn btn-primary" onclick="login.submit()">Regístrate</i>
 				</div>
 				 <?php if(!empty($errores)): ?>
 				  <div class="error">
@@ -33,8 +39,8 @@
 				  <?php endif; ?>
 					</form>
 					<p>
-						<h4 style="color:white; text-align: center;">¿No tienes cuenta?</h4>
-						<a href="registro.php" style="color:white; font-size: 20px; padding-left: 150px;">Regístrate</a>
+						<h4 style="color:white; text-align: center;">¿Ya estás registrado?</h4>
+						<a href="login.php" style="color:white; font-size: 20px; padding-left: 150px;">Inicia Sesión</a>
 					</p>
 				</div>
 				<div class="col-6 d-flex justify-content-end" style="padding-top: 30px;">
@@ -45,5 +51,4 @@
 	</div>
 </main>
 
-
-<?php require 'footer.php'; ?>
+<?php require 'views/footer.php' ?>

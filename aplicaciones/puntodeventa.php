@@ -1,0 +1,1 @@
+<?php require '../views/puntodeventa.view.php' ?>

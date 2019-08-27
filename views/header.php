@@ -44,7 +44,7 @@
 					        <a class="nav-link" href="#"  style="color:white;">Contacto</a>
 					      </li>
 					      <li class="nav-item active">
-					        <a class="nav-link" href="#"  style="color:white;">Cerrar Sesión <span class="sr-only">(current)</span></a>
+					        <a class="nav-link" href="cerrar.php"  style="color:white;">Cerrar Sesión <span class="sr-only">(current)</span></a>
 					      </li>
 					    </ul>
 					    <form class="form-inline my-2 my-lg-0">

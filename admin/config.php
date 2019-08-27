@@ -14,8 +14,9 @@ $view_config = array(
 'carpeta_imagenes' => 'imagenes/'
 );
 $ps_admin = array(
-	'user' => 'Root',
-	'pass' => 'hanniballecter'
+	'password' => 'hanniballecter',
+	'user_type' => 'admin',
+	
 );
 
 

@@ -1,0 +1,136 @@
+.main .mesas{
+	background-color: #53687E;
+	width: 1000px;
+	height: 490px;
+	padding-left: 0;
+}
+
+.main .mapa{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+
+/*Menu principal*/
+.main .menup-fondo{
+	background: #3a4454;
+	height: 625px;
+	padding-left: 0;
+	padding-right: 0;
+	z-index: 0;
+}
+.main .menu1 .contenedor{
+	box-shadow: rgba(0,0,0,0,.2);
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	max-height: 100px;
+}
+.main .menu1 .caja{
+	background: #3a4454;
+	border:1px solid grey;
+	padding:30px ;
+	flex:1;
+	text-align:center;
+	font-family: "Montserrat", sans-serif;
+	max-height: 100px;
+	padding-top: 10px;
+}
+.main .menu1 .caja h3{
+	margin-bottom: 10px;
+	color:#35ae6b;
+}
+.main .menu1 .caja a{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	color: white;
+}
+.main .menu1 .caja a i{
+	padding-right: 10px;
+}
+.main .menu1 .caja p{
+	color: #a8a8a8;
+	margin-bottom: 0;
+}
+.main .menu1 .caja:first-child{
+	break-before: none;
+}
+.main .menu1 .caja:first-last{
+	break-before: left;
+}
+/*Menu del mapa*/
+.main .menum-fondo{
+	background: #3a4454;
+	height: 135px; 
+	width: 600px;
+	padding-left: 0;
+}
+.main .menu-mapa .contenedor{
+	box-shadow: rgba(0,0,0,0,.2);
+	padding-left: 0;
+}
+.main .menu-mapa .caja{
+	background: #3a4454;
+	border:1px solid grey;
+	padding:40px 20px;
+	flex:1;
+	text-align:center;
+	font-family: "Roboto", sans-serif;
+}
+.main .menu-mapa .caja h3{
+	margin-bottom: 10px;
+	color:#35ae6b;
+}
+.main .menu-mapa .caja p{
+	color: #a8a8a8;
+	margin-bottom: 0;
+}
+.main .menu-mapa .caja:first-child{
+	break-before: none;
+}
+.main .menu-mapa .caja:first-last{
+	break-before: left;
+}
+/*formulario*/
+.detalles .entrada{
+	padding-top: 20px;
+	
+}
+.detalles .entrada h3{
+	font-size: 15px;
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: "Montserrat";
+}
+.detalles .entrada input{
+	width: 150px;
+	height: 20px;
+	padding-top: 10px;
+	border: 1px solid black;
+
+}
+
+/*Tablas*/
+.tabla{
+	padding-top: 10px;
+	padding-right: 0;
+	margin-right: 0;
+}
+#tabla-principal, td{
+	height: 25px;
+}
+#tabla-principal, th, td {
+  border: 1px solid grey;
+  background: white;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+
+
+main .observaciones, label{
+	color: white;
+}
