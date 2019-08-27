@@ -1,4 +1,3 @@
-<?php require '../admin/config.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +22,7 @@
 				</div>
 				<div class="col-8 nav-bar">
 					<nav class="navbar navbar-expand-lg navbar-light">
-					  <a class="navbar-brand" href="#" style="color:white; padding-right: 10px;">Aplicaciones</a>
+					  <a class="navbar-brand" href="<?php echo RUTA;?>/aplicaciones.php" style="color:white; padding-right: 10px;">Aplicaciones</a>
 					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					    <span class="navbar-toggler-icon"></span>
 					  </button>

@@ -6,8 +6,8 @@ require 'header.php';
 		<div class="container-fluid">
 	 		<div class="row" style="padding-top: 20px; padding-bottom: 20px;">
 	 			<div class="col-6">
-	 				<h2 style="padding-left: 10px;">Novedades</h2>
-	 				<h4 style="padding-left: 20px;">En la versión 1.0.0 se agregó</h4>
+	 				<h2 style="padding-left: 10px; ">Novedades</h2>
+	 				<h4 style="padding-left: 20px; ">En la versión 1.0.0 se agregó</h4>
 	 				<ul>
 	 					<li style="color:white;">
 	 						<a href="" style="color:white;">Sistema de Mesas</a>
@@ -22,7 +22,7 @@ require 'header.php';
 	 			</div>
 	 			<div class="col-6">
 	 				<div class="contendor-imagen">
-	 					<img src="../img/index.jpg" >
+	 					<img src="img/index.jpg" >
 	 				</div>
 	 			</div>
 	 		</div>
