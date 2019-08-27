@@ -1,0 +1,51 @@
+
+h1,h2,h3,h4,h5{
+	font-family: 'Montserrat';
+	color: white;
+}
+
+
+/*header*/
+header{
+	height: 100px;
+	background: #3a4454;
+}
+
+
+.navbar{
+	padding-top: 25px;
+}
+
+header nav-bar a{
+	color: white;
+}
+
+header .logo_home{
+	padding-top: 15px;
+
+}
+
+header .logo_home a{
+	font-family: Montserrat;
+	font-size: 40px;
+	color: white;
+}
+/*Main*/
+main{
+	background: #53687e;
+}
+
+
+/*Footer*/
+footer{
+	height: 99px;
+	background: #3a4454;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-family: Montserrat;
+	padding-top: 40px;
+}
