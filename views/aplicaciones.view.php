@@ -28,7 +28,7 @@ require 'header.php';
 					  <div class="card-body">
 					    <h5 class="card-title">Editor de bases de datos</h5>
 					    <p class="card-text">Agregue o modifique productos.</p>
-					    <a href="<?php echo RUTA; ?>/aplicaciones/base_datos.php" class="btn btn-primary">Acceder</a>
+					    <a href="<?php echo RUTA; ?>/aplicaciones/base_datos/base_datos.php" class="btn btn-primary">Acceder</a>
 					  </div>
 					</div>
 	 			</div>

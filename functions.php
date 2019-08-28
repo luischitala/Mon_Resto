@@ -67,4 +67,15 @@ function comprobarSesion(){
 	}
 }
 
+function checar_error( $texto ){
+
+	if ( isset( $_GET['e'] ) ){
+		print('<div class="alert alert-danger" role="alert">');
+		print( $texto );
+		print('</div>');
+	}
+
+}
+
+
  ?>

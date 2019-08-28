@@ -1,0 +1,115 @@
+create table productos (id int auto_increment,
+clave varchar(30) not null,
+nombre varchar(30) not null,
+descripcion varchar (30) not null,
+costo int(10) not null,
+precio int(10) not null,
+primary key (id)
+);
+
+create table platillos (id int auto_increment,
+clave varchar(30) not null,
+nombre varchar(30) not null,
+descripcion varchar (30) not null,
+costo int(10) not null,
+precio int(10) not null,
+primary key (id)
+);
+
+create table postres (id int auto_increment,
+clave varchar(30) not null,
+nombre varchar(30) not null,
+descripcion varchar (30) not null,
+costo int(10) not null,
+precio int(10) not null,
+primary key (id)
+);
+
+create table usuarios (id int auto_increment,
+nombre varchar (30) not null,
+contrasena varchar (30) not null,
+primary key (id)
+);
+
+Claves:
+be
+pl
+ps
+
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Agua Horchata','be','Fresa',5,15);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Agua Pepino','be','Limón',5,15);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Agua Piña Alfalfa','be','Verde',5,15);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Agua Avena','be','Canela',5,15);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Agua Mazapan','be','Favorita',8,15);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Agua Citricos','be','Quita sed',5,15);
+
+Agua Horchata
+Agua Pepino
+Agua Piña Alfalfa
+Agua Avena
+Agua Mazapan
+Agua Citricos
+
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Taco Birria','pl','El original',4,12);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Quesadilla Birria','pl','Maiz o harina',6,15);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Gringa Birria','pl','Harina',15,25);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Volcan Birria','pl','Maiz',6,15);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Lonche Birria','pl','Bañado',8,30);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Consome','pl','cuarto',1,5);
+
+Taco Birria
+Quesadilla Birria
+Gringa Birria
+Lonche Birria
+Volcan Birria
+Consome
+
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Arroz con leche','ps','Cremoso',5,15);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Flan','ps','Cajeta',7,20);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Alfajor','ps','Argentino',5,15);
+insert into productos(nombre,clave,descripcion,costo,precio) values(
+'Pay Manzana','ps','Crumble',10,25);
+
+Arroz con leche
+Flan
+Alfajores
+Pay Manzana
+
+
+
+insert into bebidas(nombre,descripcion,costo,precio_final) values(
+'agua_horchata','individual',5,15);
+insert into bebidas(nombre,descripcion,costo,precio_final) values(
+'Agua de jamainca','individual',5,15);
+insert into bebidas(nombre,descripcion,costo,precio_final) values(
+'Agua de pepino','individual',5,15);
+insert into bebidas(nombre,descripcion,costo,precio_final) values(
+'Agua de mazapan','individual',5,15);
+insert into bebidas(nombre,descripcion,costo,precio_final) values(
+'Agua de horchata','individual',5,15);
+
+insert into platillos(nombre,descripcion,costo,precio_final) values(
+'quesadilla_birria','harina',10,25);
+
+insert into postres(nombre,descripcion,costo,precio_final) values(
+'arroz_c_leche','individual',5,20);
+
+Update
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;

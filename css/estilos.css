@@ -1,3 +1,6 @@
+main{
+	position: static;
+}
 
 main h1,h2,h3,h4 {
 	font-family: 'Montserrat';
@@ -40,6 +43,8 @@ main{
 footer{
 	height: 99px;
 	background: #3a4454;
+	width: 100%;
+	
 }
 
 footer p{
@@ -47,5 +52,6 @@ footer p{
 	text-align: center;
 	font-size: 15px;
 	font-family: Montserrat;
-	padding-top: 40px;
+	padding-top: 50px;
 }
+/*Nav Productos*/
