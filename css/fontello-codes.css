@@ -1,10 +1,8 @@
 
-.icon-home:before { content: '\e800'; } /* '' */
-.icon-doc-add:before { content: '\e801'; } /* '' */
-.icon-right-hand:before { content: '\e802'; } /* '' */
-.icon-wrench:before { content: '\e803'; } /* '' */
-.icon-plus:before { content: '\e804'; } /* '' */
-.icon-minus:before { content: '\e805'; } /* '' */
-.icon-right-circle:before { content: '\e806'; } /* '' */
+.icon-lock:before { content: '\e800'; } /* '' */
+.icon-plus:before { content: '\e801'; } /* '' */
+.icon-trash-empty:before { content: '\e802'; } /* '' */
+.icon-bar:before { content: '\e804'; } /* '' */
 .icon-fast-food:before { content: '\e815'; } /* '' */
-.icon-money:before { content: '\f0d6'; } /* '' */
+.icon-pharmacy:before { content: '\e829'; } /* '' */
+.icon-user-male:before { content: '\f062'; } /* '' */

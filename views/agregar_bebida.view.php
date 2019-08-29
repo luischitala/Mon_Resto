@@ -13,11 +13,6 @@
 				    </div>
 				  </div>
 				</nav>
-<!-- 				<div class="list-group" style="padding-left: 30px; padding-top: 20px;">
-					  <a href="agregar_bebida.php" class="list-group-item list-group-item-action">Agregar Bebida</a>
-					  <a href="#" class="list-group-item list-group-item-action">Modificar Bebida</a>
-					  <a href="#" class="list-group-item list-group-item-action">Eliminar Bebida</a>	  
-				</div> -->
 				<form style="padding-left: 20px; padding-top: 20px;" method="POST" action="agregar_bebida.php">
 				  <div class="form-group">
 				    <label  style="color:white;">Nombre del platillo</label>
@@ -35,7 +30,7 @@
 				    <label  style="color:white;">Precio</label>
 				    <input type="text" name="precio" class="form-control" id="" placeholder="Ingrese el precio final">
 				  </div>
-				  <button type="submit" style="padding-left: 20px;" class="btn btn-primary">Agregar!</button>
+				  <button type="submit" style="padding-left: 20px;" class="btn btn-primary">Submit</button>
 				</form>
 			</div>
 			<div class="col-6" style="padding-top: 30px; padding-bottom: 30px;  padding-bottom: 20px;">

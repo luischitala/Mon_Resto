@@ -1,45 +1,44 @@
-<?php require 'header.php';?>
+	<?php require 'header.php';?>
 
 <main>
 	<div class="container-fluid" style="background: #53687e; padding-bottom: 50px; ">
 		<div class="row">
 			<div class="col-6" style="padding-top: 30px; padding-bottom: 30px; ">
+			
 				<nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-left: 30px; padding-left: 20px; padding-bottom: 30px; width: 400px; height: 50px">
 				  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				    <div class="navbar-nav">
-				      <i class="icon-bar"></i><a class="nav-item nav-link active" href="#" style="padding-left: 15px; padding-right: 20px; font-size: 20px;">Bebidas <span class="sr-only">(current)</span></a>
+				      <a class="nav-item nav-link active" href="#" style="padding-left: 15px; padding-right: 20px; font-size: 20px;">Bebidas <span class="sr-only">(current)</span></a>
 				      <i class="icon-fast-food" style="padding-right: 10px; padding-top: 12px;"></i><a class="nav-item nav-link active" href="<?php echo RUTA; ?>/aplicaciones/base_datos/platillos.php" style="padding-right: 30px; padding-top: 13px;">Platillos <span class="sr-only">(current)</span></a>
 				      <i class="icon-pharmacy"></i><a class="nav-item nav-link active" href="<?php echo RUTA; ?>/aplicaciones/base_datos/postres.php" style="padding-top: 13px;">Postres <span class="sr-only">(current)</span></a>
 				    </div>
 				  </div>
 				</nav>
-<!-- 				<div class="list-group" style="padding-left: 30px; padding-top: 20px;">
-					  <a href="agregar_bebida.php" class="list-group-item list-group-item-action">Agregar Bebida</a>
-					  <a href="#" class="list-group-item list-group-item-action">Modificar Bebida</a>
-					  <a href="#" class="list-group-item list-group-item-action">Eliminar Bebida</a>	  
-				</div> -->
-				<form style="padding-left: 20px; padding-top: 20px;" method="POST" action="agregar_bebida.php">
+				<h4 style="padding-left: 20px; padding-top: 20px">Se encuentra editando el producto: <?php print($datos['nombre'])?></h4>
+				<form style="padding-left: 20px; " method="POST" action="modificar_bebida.php">
 				  <div class="form-group">
+				  	
 				    <label  style="color:white;">Nombre del platillo</label>
-				    <input type="text" name="nombre" class="form-control" i="" placeholder="Ingrese el nombre del producto">
+				    <input type="text" name="nombre" class="form-control" value="<?php print($datos['nombre'])?>" placeholder="Ingrese el nuevo nombre del producto">
 				  </div>
 				  <div class="form-group">
 				    <label  style="color:white;">Descripción</label>
-				    <input type="text" name="descripcion" class="form-control" id="" placeholder="Ingrese la description del producto">
+				    <input type="text" name="descripcion" class="form-control" value="<?php print($datos['descripcion'])?>"id="" placeholder="Ingrese la nueva description del producto">
 				  </div>
 				  <div class="form-group" style="width: 200px;">
 				    <label  style="color:white;">Costo</label>
-				    <input type="text" name="costo" class="form-control" id="" placeholder="Ingrese el costo">
+				    <input type="text" name="costo" class="form-control" value="<?php print($datos['costo'])?>" placeholder="Ingrese el costo correcto">
 				  </div>
 				  <div class="form-group" style="width: 200px;">
 				    <label  style="color:white;">Precio</label>
-				    <input type="text" name="precio" class="form-control" id="" placeholder="Ingrese el precio final">
+				    <input type="text" name="precio" class="form-control" value="<?php print($datos['precio'])?>" placeholder="Ingrese el nuevo precio" >
 				  </div>
-				  <button type="submit" style="padding-left: 20px;" class="btn btn-primary">Agregar!</button>
+				  <button type="submit"  class="btn btn-primary">¡Actualizar!</button>
 				</form>
 			</div>
 			<div class="col-6" style="padding-top: 30px; padding-bottom: 30px;  padding-bottom: 20px;">
 				<div class="caja-tabla" style="background: white; margin-bottom: 50px;">
+
 						<?php
 							conexion($db_config);
 
@@ -52,7 +51,7 @@
 						
 						$statement->execute();
 
-						checar_error("Error al intetar guardar el platillo");
+						checar_error("Error al intetar guardar la bebida");
 
 						?>
 						<div class="container" style="padding-top: 35px; padding-bottom: 30px; padding-left: 50px;">
