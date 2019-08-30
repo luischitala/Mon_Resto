@@ -2,7 +2,11 @@
 .icon-lock:before { content: '\e800'; } /* '' */
 .icon-plus:before { content: '\e801'; } /* '' */
 .icon-trash-empty:before { content: '\e802'; } /* '' */
+.icon-doc-add:before { content: '\e803'; } /* '' */
 .icon-bar:before { content: '\e804'; } /* '' */
+.icon-right-hand-1:before { content: '\e805'; } /* '' */
+.icon-home:before { content: '\e807'; } /* '' */
 .icon-fast-food:before { content: '\e815'; } /* '' */
 .icon-pharmacy:before { content: '\e829'; } /* '' */
 .icon-user-male:before { content: '\f062'; } /* '' */
+.icon-money:before { content: '\f0d6'; } /* '' */

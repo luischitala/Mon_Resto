@@ -15,8 +15,34 @@
 			<div class="row">
 				<div class="col-6 mapa">
 					<div class="row">
-						<div class="col-12 mesas">
-							
+						<div class="col-12 mesas ">
+							<div class="row" style="padding-bottom: 20px; padding-top: 20px;">
+								<div class="col-12 d-flex justify-content-around">
+									<div class="cajita">
+										<img src="../img/aplicaciones/mesa2.png" height="100" width="100">
+									</div>
+									<div class="cajita">
+										<img src="../img/aplicaciones/mesa2.png" height="100" width="100">
+									</div>
+									<div class="cajita" style=""  >
+										<img src="../img/aplicaciones/mesa2.png" height="100" width="100" style="padding-bottom: 18px; padding-left: 10px;">
+									</div>
+								</div>
+							</div>
+							<div class="row" style="padding-bottom: 20px;">
+								<div class="col-12 d-flex justify-content-around" >
+									<div class="cajita"><img src="../img/aplicaciones/mesa2.png" height="100" width="100"></div>
+									<div class="cajita"><img src="../img/aplicaciones/mesa2.png" height="100" width="100"></div>
+									<div class="cajita"><img src="../img/aplicaciones/mesa2.png" height="100" width="100"></div>
+								</div>
+							</div>
+							<div class="row" style="padding-bottom: 20px;">
+								<div class="col-12 d-flex justify-content-around" >
+									<div class="cajita"><img src="../img/aplicaciones/mesa2.png" height="100" width="100"></div>
+									<div class="cajita"><img src="../img/aplicaciones/mesa2.png" height="100" width="100"></div>
+									<div class="cajita"><img src="../img/aplicaciones/mesa2.png" height="100" width="100"></div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="row">
@@ -50,7 +76,7 @@
 										<a href="#"><i class="icon-doc-add"></i><span>Nueva Cuenta</span></a>	
 									</div>
 									<div class="caja">
-										<a href="#"><i class="icon-right-hand"></i><span>Captura</span></a>	
+										<a href="#"><i class="icon-right-hand-1"></i><span>Captura</span></a>	
 									</div>
 									<div class="caja">
 										<a href="#"><i class="icon-fast-food"></i><span>Venta Rápida</span></a>	

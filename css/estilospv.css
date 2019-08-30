@@ -28,6 +28,16 @@
 	padding-top: 0;
 	max-height: 100px;
 }
+
+.cajita{
+	background: white;
+	width: 170px;
+}
+.cajita img{
+	padding-bottom: 20px;
+	padding-left:10px;
+}
+
 .main .menu1 .caja{
 	background: #3a4454;
 	border:1px solid grey;
